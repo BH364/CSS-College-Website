@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+</head>
+<body>
+    <center>
+        <h3 align="center">ADMISSION FORM</h3>
+        <table border="3">
+            <tr><td>
+    <form>
+        <table cellpadding="5" cellspacing="10">
+           <tr><td>First Name: </td><td><input type="text" name="FirstName" placeholder="eg.gowtham"></td></tr>
+            <tr><td>Last Name: </td><td><input type="text" name="LastName" placeholder="eg.reddy"></td></tr>
+            <tr><td>EMail: </td><td><input type="email" name="EMail" placeholder="eg.abc@gmail.com"></td></tr>
+            <tr><td> Password: </td><td><input type="password" name="password" ></td></tr>
+           <tr><td> Gender: </td><td><input type="radio" name="gender" value="M" checked>Male
+               <input type="radio" name="gender" value="F">Female 
+               <input type="radio" name="gender" value="O">Other</td> </tr>
+           <tr><td> Date Of Birth:</td>
+               <td><input type="date" name="DOB"></td></tr>
+            <tr><td>Marks:<input type="number" max="600" min="250" name="marks"></td></tr>
+            <tr><td> PREFERENCES:</td></tr>
+           <tr><td><input type="checkbox" name="nuz" value="nuz">Nuzvid</td></tr>
+           <tr><td><input type="checkbox" name="ong" value="ong">Ongole</td></tr> 
+            <tr><td><input type="checkbox" name="rk" value="rk">RK Valley</td></tr><br><br>
+            <tr><td><input type="checkbox" name="sklm" value="sklm">Srikakulam</td></tr><br><br>
+            
+            <tr><td>Category:</td>
+             <td><select name="branch">
+            <option value="" selected>Select</option>
+            <option value="oc">Other Category</option>
+            <option value="bc-A">BC-A</option>
+            <option value="bc-b">BC-B</option>
+            <option value="bc-c">BC-C</option>
+           <option value="bc-d">BC-D</option>
+           <option value="bc-e">BC-E</option>
+           <option value="sc">SC</option>
+           <option value="st">ST</option>
+      
+        </select> </td></tr>
+        <tr><td>Image(passport size):</td>
+         <td>  <input type="file" name="image"></td></tr>
+       <tr><td>Address:</td> 
+       <td><textarea name="suggest" rows="5" cols="20"></textarea></td></tr>
+        <tr><td colspan="2" align="center"><button type="submit">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="reset">Reset</button></td></tr>
+    </table>   
+    </form></td></tr>
+</table>
+</center>
+</body>
+</html>
